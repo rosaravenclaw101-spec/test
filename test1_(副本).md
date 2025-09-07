@@ -8,3 +8,4 @@ Map<String, Object> result = new HashMap<>();
         result.put("size", file.getSize());
         result.put("uploadTime", LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
 ```
+测试能否拉取
